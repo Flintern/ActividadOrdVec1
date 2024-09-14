@@ -209,7 +209,7 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Registrar datos del vehiculo"/>
+            <Property name="text" type="java.lang.String" value="Registrar datos del empleado"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="matricula">
@@ -334,7 +334,7 @@
         <Component class="com.toedter.calendar.JDateChooser" name="selecfecha">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value=""/>
-            <Property name="dateFormatString" type="java.lang.String" value="y, MMM, d"/>
+            <Property name="dateFormatString" type="java.lang.String" value="y, LL, d"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">

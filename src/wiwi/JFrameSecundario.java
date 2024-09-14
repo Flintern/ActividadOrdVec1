@@ -4,11 +4,11 @@
  */
 package wiwi;
 
+import com.toedter.calendar.JDateChooser;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.Date;
-import java.util.LinkedList;
 import javax.swing.JOptionPane;
 
 /**
@@ -73,7 +73,7 @@ public class JFrameSecundario extends javax.swing.JFrame {
 
         jPanel1.setForeground(new java.awt.Color(255, 153, 153));
 
-        jLabel1.setText("Registrar datos del vehiculo");
+        jLabel1.setText("Registrar datos del empleado");
 
         matricula.setText("ID");
 
@@ -147,7 +147,7 @@ public class JFrameSecundario extends javax.swing.JFrame {
         jLabel4.setText("Fecha Vinculacion");
 
         selecfecha.setToolTipText("");
-        selecfecha.setDateFormatString("y, MMM, d");
+        selecfecha.setDateFormatString("y, LL, d");
 
         jLabel3.setText("Horas Extra");
 
